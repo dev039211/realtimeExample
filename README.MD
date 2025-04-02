@@ -27,7 +27,7 @@ Response: The browser gets index.html and starts reading it.<br>
 Step 2: Loading Styles (CSS Request)<br>
 In index.html, the browser sees:<br>
 
-`<link rel="stylesheet" href="style.css"><br>
+`<link rel="stylesheet" href="style.css">` <br>
 The browser requests style.css to make the page look nice.<br>
 
 Response: The server (or your computer) sends style.css.<br>
@@ -37,7 +37,7 @@ Response: The server (or your computer) sends style.css.<br>
 
 Step 3: Loading JavaScript (JS Request)<br>
 The browser sees this in index.html:<br>
-`<script src="script.js"></script><br>
+`<script src="script.js"></script>`<br>
 Browser requests script.js so it can run JavaScript.<br>
 
 Response: The server sends script.js.<br>
@@ -49,7 +49,7 @@ Step 4: Clicking the Button (JavaScript Action)<br>
 You click the button, which calls:<br>
 ```function changeText() {
     document.getElementById("message").innerText = "Ta-da! 🎩✨ Button Clicked!";
-}
+}```
 <br>
 This happens inside the browser, so no new request is sent to the server.<br>
 
