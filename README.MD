@@ -1,12 +1,12 @@
 
-🎯 Try It Yourself! <br>
+<mark>🎯 Try It Yourself! </mark><br>
 Create these three files (index.html, style.css, script.js).<br>
 
 Save them in a folder.<br>
 
 Open index.html in your browser. 🎉<br>
 
-🌐 What is a Request and a Response?<br>
+**🌐 What is a Request and a Response?**<br>
 Request: When you ask for something from a website. (Like saying, “Hey website, give me this page!”) <br>
 
 Response: When the website gives you what you asked for. (Like handing you a page to read.)<br>
