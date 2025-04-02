@@ -47,10 +47,10 @@ Response: The server sends script.js.<br>
 
 Step 4: Clicking the Button (JavaScript Action)<br>
 You click the button, which calls:<br>
-```
-function changeText() {
-    document.getElementById("message").innerText = "Ta-da! 🎩✨ Button Clicked!";
-}```
+
+    function changeText() {
+        document.getElementById("message").innerText = "Ta-da! 🎩✨ Button Clicked!";
+    }
 <br>
 This happens inside the browser, so no new request is sent to the server.<br>
 
