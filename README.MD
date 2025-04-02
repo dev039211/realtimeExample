@@ -1,5 +1,5 @@
 
-** 🎯 Try It Yourself! ** <br>
+<mark> 🎯 Try It Yourself! </mark> <br>
 Create these three files (index.html, style.css, script.js).<br>
 
 Save them in a folder.<br>
@@ -68,7 +68,7 @@ The browser instantly updates the text on your screen (No waiting needed!).<br>
 | Click Button  | No Request (JavaScript runs in browser) | Text changes instantly     |
 
 <br>
-** 🤔 What If This Were Online? ** <br>
+<mark> 🤔 What If This Were Online? </mark> <br>
 If this website were on a real web server (like GitHub Pages), your browser would send these requests over the internet, and a server would respond with the files.
 <br>
 
