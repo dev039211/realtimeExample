@@ -47,7 +47,8 @@ Response: The server sends script.js.<br>
 
 Step 4: Clicking the Button (JavaScript Action)<br>
 You click the button, which calls:<br>
-```function changeText() {
+```
+function changeText() {
     document.getElementById("message").innerText = "Ta-da! 🎩✨ Button Clicked!";
 }```
 <br>
