@@ -1,62 +1,64 @@
 
-🎯 Try It Yourself!
-Copy these three files (index.html, style.css, script.js).
+🎯 Try It Yourself! <br>
+Create these three files (index.html, style.css, script.js).<br>
 
-Save them in a folder.
+Save them in a folder.<br>
 
-Open index.html in your browser. 🎉
+Open index.html in your browser. 🎉<br>
 
-🌐 What is a Request and a Response?
-Request: When you ask for something from a website. (Like saying, “Hey website, give me this page!”)
+🌐 What is a Request and a Response?<br>
+Request: When you ask for something from a website. (Like saying, “Hey website, give me this page!”) <br>
 
-Response: When the website gives you what you asked for. (Like handing you a page to read.)
+Response: When the website gives you what you asked for. (Like handing you a page to read.)<br>
 
-Now, let’s see how this works in our example.
+Now, let’s see how this works in our example.<br>
 
-🚀 Request & Response Flow in Our Example Website
-Step 1: Opening the Website (HTML Request)
-You type index.html in your browser or double-click the file.
+🚀 Request & Response Flow in Our Example Website<br>
+Step 1: Opening the Website (HTML Request)<br>
+You type index.html in your browser or double-click the file.<br>
 
-Browser sends a request to get the HTML file.
+Browser sends a request to get the HTML file.<br>
 
-Response: The browser gets index.html and starts reading it.
+Response: The browser gets index.html and starts reading it.<br>
 
-🔹 Request: GET index.html
-🔹 Response: index.html is sent to the browser.
+🔹 Request: GET index.html<br>
+🔹 Response: index.html is sent to the browser.<br>
 
-Step 2: Loading Styles (CSS Request)
-In index.html, the browser sees:
-<link rel="stylesheet" href="style.css">
-The browser requests style.css to make the page look nice.
+Step 2: Loading Styles (CSS Request)<br>
+In index.html, the browser sees:<br>
 
-Response: The server (or your computer) sends style.css.
+`<link rel="stylesheet" href="style.css"><br>
+The browser requests style.css to make the page look nice.<br>
 
-🔹 Request: GET style.css
-🔹 Response: The browser gets the CSS and applies styles.
+Response: The server (or your computer) sends style.css.<br>
 
-Step 3: Loading JavaScript (JS Request)
-The browser sees this in index.html:
-<script src="script.js"></script>
-Browser requests script.js so it can run JavaScript.
+🔹 Request: GET style.css<br>
+🔹 Response: The browser gets the CSS and applies styles.<br>
 
-Response: The server sends script.js.
+Step 3: Loading JavaScript (JS Request)<br>
+The browser sees this in index.html:<br>
+`<script src="script.js"></script><br>
+Browser requests script.js so it can run JavaScript.<br>
 
-🔹 Request: GET script.js
-🔹 Response: JavaScript is loaded and ready to run.
+Response: The server sends script.js.<br>
 
-Step 4: Clicking the Button (JavaScript Action)
-You click the button, which calls:
-function changeText() {
+🔹 Request: GET script.js<br>
+🔹 Response: JavaScript is loaded and ready to run.<br>
+
+Step 4: Clicking the Button (JavaScript Action)<br>
+You click the button, which calls:<br>
+```function changeText() {
     document.getElementById("message").innerText = "Ta-da! 🎩✨ Button Clicked!";
 }
-This happens inside the browser, so no new request is sent to the server.
+<br>
+This happens inside the browser, so no new request is sent to the server.<br>
 
-The browser instantly updates the text on your screen (No waiting needed!).
+The browser instantly updates the text on your screen (No waiting needed!).<br>
 
-🔹 Request: (No request to the server, JavaScript runs locally.)
-🔹 Response: JavaScript changes the text dynamically.
+🔹 Request: (No request to the server, JavaScript runs locally.)<br>
+🔹 Response: JavaScript changes the text dynamically.<br>
 
-🚀 Full Request-Response Summary
+🚀 Full Request-Response Summary:<br>
 | Action         | Request Sent                          | Response Received            |
 |---------------|--------------------------------------|------------------------------|
 | Open Website  | `GET index.html`                     | Sends `index.html`           |
@@ -64,8 +66,9 @@ The browser instantly updates the text on your screen (No waiting needed!).
 | Load JavaScript | `GET script.js`                    | Sends `script.js`            |
 | Click Button  | No Request (JavaScript runs in browser) | Text changes instantly     |
 
-
-🤔 What If This Were Online?
+<br>
+🤔 What If This Were Online?<br>
 If this website were on a real web server (like GitHub Pages), your browser would send these requests over the internet, and a server would respond with the files.
+<br>
 
 
